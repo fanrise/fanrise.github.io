@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome to Sedona</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="mainHeader container">
+    <nav class="mainNav">
+      <ul class="mainNav__links">
+        <li><a class="btn" href="index.html">Главная</a></li>
+        <li><a class="btn btn--activeMenu" href="photoAndVideo.html">Фото и видео</a></li>
+        <li></li>
+        <li><a class="btn" href="feedbackForm.html">Форма отзыва</a></li>
+        <li><a class="btn" href="#htmlAcademy">Html Academy</a></li>
+      </ul>
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/logo_desktop.png">
+        <img class="mainNav__logo" src="img/logo_mobile.png" alt="logo">
+      </picture>
+      <a class="mainNav__toggle">
+        <span></span>
+      </a>
+    </nav>
+  </header>
+  <section class="intro  intro--min  container">
+    <div class="intro__wrapper">
+      <picture>
+        <source media="(min-width: 768px)" srcset="img/intro_slogan_tablet.png">
+        <img class="intro__slogan" src="img/intro_slogan.png" alt="slogan">
+      </picture>
+    </div>
+  </section>
+  <section class="photo container">
+    <div class="photo__wrapper">
+      <header class="header">
+        <h2>Фото и видео</h2>
+        <p>Не можете решиться на путешествие из-за курса?<br> Фотографии помогут вам забыть о политике и экономике.</p>
+      </header>
+      <hr>
+      <div class="photo__items">
+        <!-- <hr>
+        <div class="photo__item">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/photo_1_desktop.jpg">
+            <source media="(min-width: 768px)" srcset="img/photo_1_tablet.jpg">
+            <img src="img/photo_1_mobile.jpg" alt="photo">
+          </picture>
+          <div class="photo__caption">
+            <b>Неродные просторы</b><br>
+            <span>Автор фото: Борис</span>
+            <div class="photo__like">
+              <i class="fa fa-thumbs-o-up"></i><b>1350</b>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="photo__item">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/photo_2_desktop.jpg">
+            <source media="(min-width: 768px)" srcset="img/photo_2_tablet.jpg">
+            <img src="img/photo_2_mobile.jpg" alt="photo">
+          </picture>
+          <div class="photo__caption">
+            <b>Местная растительность</b><br>
+            <span>Автор фото: Сергей</span>
+            <div class="photo__like">
+              <i class="fa fa-thumbs-o-up "></i><b>143</b>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="photo__item">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/photo_3_desktop.jpg">
+            <source media="(min-width: 768px)" srcset="img/photo_3_tablet.jpg">
+            <img src="img/photo_3_mobile.jpg" alt="photo">
+          </picture>
+          <div class="photo__caption">
+            <b>Дорога на север</b><br>
+            <span>Автор фото: Петр</span>
+            <div class="photo__like">
+              <i class="fa fa-thumbs-o-up "></i><b>96</b>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="photo__item">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/photo_4_desktop.jpg">
+            <source media="(min-width: 768px)" srcset="img/photo_4_tablet.jpg">
+            <img src="img/photo_4_mobile.jpg" alt="photo">
+          </picture>
+          <div class="photo__caption">
+            <b>Мост дьявола</b><br>
+            <span>Автор фото: Антон</span>
+            <div class="photo__like">
+              <i class="fa fa-thumbs-o-up "></i><b>254</b>
+            </div>
+          </div>
+        </div>
+        <hr> -->
+      </div>
+    </div>
+  </section>
+  <section class="video container">
+    <div class="video__wrapper">
+      <div class="header">
+        <h2>Все еще сомневаетесь?</h2>
+        <p>Cмотрите видеопрезентацию и скорее за билетами, пока<br>они не подорожали в очередной раз!</p>
+      </div>
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/video_desktop.jpg">
+        <img src="img/video.jpg" alt="video">
+      </picture>
+    </div>
+  </section>
+  <footer class="mainFooter container">
+    <div class="mainFooter__wrapper">
+      <section class="hashtag">
+        <a class="likeH1" href="#">#visitsedona</a>
+      </section>
+      <section class="social">
+        <a class="btn  btn--disabled" href="#"><i class="fa fa-twitter"></i>twitter</a>
+        <a class="btn" href="#"><i class="fa fa-facebook"></i>facebook</a>
+        <a class="btn" href="#"><i class="fa fa-youtube-play"></i>youtube</a>
+      </section>
+      <section class="copyright">
+        <a href="#">Разработано
+          <img src="img/htmlacademy.png" alt="htmlacademy">
+          <img src="img/htmlacademy.png" alt="htmlacademy">
+        </a>
+      </section>
+    </div>
+  </footer>
+  <template id="fotoTemplate">
+    <div class="photo__item">
+      <picture>
+        <source class="photo__desktop" media="(min-width: 1200px)" srcset="">
+        <source class="photo__tablet" media="(min-width: 768px)" srcset="">
+        <img class="photo__mobile" src="#" alt="photo">
+      </picture>
+      <div class="photo__caption">
+        <b class="photo__name"></b><br>
+        <span class="photo__author">Автор фото: <span></span></span>
+        <div class="photo__like">
+          <i class="fa fa-thumbs-o-up"></i><b></b>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/photo.js"></script>
+</body>
+</html>

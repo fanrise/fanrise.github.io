@@ -1,0 +1,35 @@
+.features__sectionSecondItem {
+  .padding;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  position: relative;
+}
+.features__sectionSecondItem img {
+  position: absolute;
+  top: 24px;
+}
+.features__sectionSecondItem p,
+.features__sectionSecondItem h2 {
+  padding-left: 50px;
+}
+
+@media @tablet-width {
+  .features__sectionSecond {
+    display: flex;
+  }
+  .features__sectionSecondItem {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .features__sectionSecondItem img {
+    position: static;
+    height: 80px;
+    object-fit: scale-down;
+  }
+  .features__sectionSecondItem p,
+  .features__sectionSecondItem h2 {
+    padding-left: 0;
+  }
+}

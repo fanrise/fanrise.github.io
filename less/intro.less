@@ -1,0 +1,39 @@
+.intro__wrapper {
+  text-align: center;
+  background-color: rgb(140, 175, 190);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../img/intro_background.jpg);
+}
+.intro__slogan {
+  margin-top: 90px;
+  margin-bottom: 85px;
+  vertical-align: middle;
+}
+.intro--min {
+  .intro__wrapper {
+    background-position: bottom;
+  }
+  .intro__slogan {
+    height: 39px;
+    width: 214px;
+    object-fit: cover;
+  }
+}
+@media @tablet-width {
+  .intro__wrapper {
+    background-image: url(../img/intro_background_tablet.jpg);
+  }
+  .intro__slogan {
+    margin-top: 77px;
+    margin-bottom: 91px;
+  }
+  .intro--min {
+    .intro__slogan {
+      margin-top: 95px;
+      margin-bottom: 117px;
+      height: 82px;
+      width: 460px;
+    }
+  }
+}

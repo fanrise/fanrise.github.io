@@ -1,0 +1,33 @@
+.features__sectionThird {
+  color: @white;
+  background-color: @accent;
+}
+.features__sectionThird h2{
+  color: @white;
+}
+.features__sectionThirdText {
+  .padding;
+}
+.features__sectionThird img {
+  display: block;
+  width: 100%;
+  height: 256px;
+  object-fit: cover;
+}
+
+@media @tablet-width {
+  .features__sectionThird {
+    display: flex;
+  }
+  .features__sectionThirdText {
+    box-sizing: border-box;
+    width: 34%;
+    flex-shrink: 0;
+    align-self: center;
+    order: 2;
+  }
+  .features__sectionThird img {
+    min-height: 256px;
+    height: 100%;
+  }
+}

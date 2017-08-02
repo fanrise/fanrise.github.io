@@ -1,0 +1,115 @@
+.mainNav {
+  position: relative;
+  text-align: center;
+  background-color: @white;
+}
+.mainNav__links {
+  padding: 0;
+  margin: 0;
+}
+.mainNav__links a {
+  margin: 0px;
+  font-size: 18px;
+  line-height: 26px;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.3),
+              inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+}
+.mainNav__logo {
+  margin-bottom: -27px;
+  vertical-align: middle;
+}
+.mainNav__toggle {
+  display: block;
+  position: absolute;
+  bottom: 18px;
+  right: 6.25%;
+  width: 23px;
+  height: 21px;
+  &::before, &::after {
+    transition: 0.5s;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 23px;
+    height: 4px;
+    background-color: @accent;
+  }
+  &::after {
+    top: 17px;
+  }
+  span {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    display: block;
+    width: 23px;
+    height: 5px;
+    transition: 0.5s;
+    background-color: @accent;
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.3),
+                inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+  }
+  &:hover {
+    &::before,
+    &::after,
+    span {
+      background-color: @accentHvr;
+    }
+  }
+  &:active {
+    &::before,
+    &::after,
+    span {
+      background-color: @accentDwn;
+    }
+  }
+}
+.mainNav__toggle--active {
+  &::before, &::after {
+    transform-origin: left top;
+    transform: translateX(3px) rotate(45deg);
+    width: 26px;
+    border-radius: 1px;
+  }
+  &::after {
+    transform-origin: left bottom;
+    transform: translateX(3px) rotate(-45deg);
+  }
+  span {
+    transform: translateX(-40px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@media @tablet-width {
+  .mainNav__links {
+    display: flex!important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .mainNav__links li {
+    width: 20%;
+  }
+  .mainNav__links a {
+    .accentLink;
+    font-size: 14px;
+    background-color: inherit;
+    box-shadow: none;
+    &:hover {
+      background-color: inherit;
+    }
+    &:active {
+      background-color: inherit;
+    }
+  }
+  .mainNav__logo {
+    position: absolute;
+    left: center;
+    top: 0;
+    transform: translateX(-50%);
+  }
+  .mainNav__toggle {
+    display: none;
+  }
+}

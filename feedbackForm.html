@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome to Sedona</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="mainHeader container">
+    <nav class="mainNav">
+      <ul class="mainNav__links">
+        <li><a class="btn" href="index.html">Главная</a></li>
+        <li><a class="btn" href="photoAndVideo.html">Фото и видео</a></li>
+        <li></li>
+        <li><a class="btn btn--activeMenu" href="#feedbackForm">Форма отзыва</a></li>
+        <li><a class="btn" href="#htmlAcademy">Html Academy</a></li>
+      </ul>
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/logo_desktop.png">
+        <img class="mainNav__logo" src="img/logo_mobile.png" alt="logo">
+      </picture>
+      <a class="mainNav__toggle">
+        <span></span>
+      </a>
+    </nav>
+  </header>
+  <section class="intro  intro--min  container">
+    <div class="intro__wrapper">
+      <picture>
+        <source media="(min-width: 768px)" srcset="img/intro_slogan_tablet.png">
+        <img class="intro__slogan" src="img/intro_slogan.png" alt="slogan">
+      </picture>
+    </div>
+  </section>
+  <section class="feedback container">
+    <div class="feedback__wrapper">
+      <header class="header">
+        <h2>Оставьте свой отзыв</h2>
+        <p>Помогите нашим отелям стать лучше! Оставь отзыв о них,<br>
+        а также о посещенных вами достопримечательностях</p>
+      </header>
+      <hr>
+      <form class="feedback__form">
+        <ul class="feedback__block feedback__block--userName">
+          <h2>Представьтесь<span>, пожалуйста</span>:</h2>
+          <li>
+            <label for="name">Имя:</label>
+            <input id="name" type="text" name="name" placeholder="Петр">
+          </li>
+          <li>
+            <label for="secondName">Фамилия:</label>
+            <input id="secondName" type="text" name="secondName" placeholder="Иванов">
+          </li>
+          <li>
+            <label for="thirdName">Отчество:</label>
+            <input id="thirdName" type="text" name="thirdName" placeholder="Александрович">
+          </li>
+        </ul>
+        <hr>
+        <ul class="feedback__block feedback__block--contacts">
+          <h2>Контактная информация:</h2>
+          <li>
+            <label for="phone"><span>Контактный</span> телефон: </label>
+            <input id="phone" type="tel" name="tel" placeholder="Введите телефон">
+            <i class="fa fa-phone"></i>
+          </li>
+          <li>
+            <label for="email">Электронная почта:</label>
+            <input id="email" type="email" name="email" placeholder="Введите e-mail">
+            <i class="fa fa-envelope"></i>
+          </li>
+        </ul>
+        <hr>
+        <ul class="feedback__block feedback__block--impression">
+          <h2>Ваше общее впечатление:</h2>
+          <li>
+            <input id="positive" type="radio" name="impression" value="positive" checked>
+            <label for="positive">Скорее положительное</label>
+          </li>
+          <li>
+            <input id="negative" type="radio" name="impression" value="negative">
+            <label for="negative">Скорее отрицательное</label>
+          </li>
+          <li>
+            <input id="difficult" type="radio" name="impression" value="difficult">
+            <label for="difficult">Затрудняюсь ответить</label>
+          </li>
+        </ul>
+        <hr>
+        <ul class="feedback__block feedback__block--attraction">
+          <h2><span>Посещенные<br>достопримечательности:</span></h2>
+          <li>
+            <input id="devilBridge" type="checkbox" name="attraction" value="devilBridge" checked>
+            <label for="devilBridge">Мост Дьявола</label>
+          </li>
+          <li>
+            <input id="slidePark" type="checkbox" name="attraction" value="slidePark">
+            <label for="slidePark">Слайд-парк</label>
+          </li>
+          <li>
+            <input id="mountinBell" type="checkbox" name="attraction" value="mountinBell">
+            <label for="mountinBell">Гора-Колокол</label>
+          </li>
+          <li>
+            <input id="redCliffs" type="checkbox" name="attraction" value="redCliffs">
+            <label for="redCliffs">Красные скалы</label>
+          </li>
+        </ul>
+        <hr>
+        <ul class="feedback__block feedback__block--feeling">
+          <h2>Опишите свои эмоции:</h2>
+          <li>
+            <textarea name="feeling" rows="6" cols="180" placeholder="Опишите подробно все свои восторги" resize="none"></textarea>
+          </li>
+        </ul>
+        <div class="feedback__button">
+          <input class="btn" type="submit" value="Отправить отзыв">
+          <p>* - обязательные поля</p>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="mainFooter container">
+    <div class="mainFooter__wrapper">
+      <section class="hashtag">
+        <a class="likeH1" href="#">#visitsedona</a>
+      </section>
+      <section class="social">
+        <a class="btn  btn--disabled" href="#"><i class="fa fa-twitter"></i>twitter</a>
+        <a class="btn" href="#"><i class="fa fa-facebook"></i>facebook</a>
+        <a class="btn" href="#"><i class="fa fa-youtube-play"></i>youtube</a>
+      </section>
+      <section class="copyright">
+        <a href="#">Разработано
+          <img src="img/htmlacademy.png" alt="htmlacademy">
+          <img src="img/htmlacademy.png" alt="htmlacademy">
+        </a>
+      </section>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Неродные просторы",
+    "author": "Борис",
+    "likes": "1350",
+    "photoMobile": "img/photo_1_mobile.jpg",
+    "photoTablet": "img/photo_1_tablet.jpg",
+    "photoDesktop": "img/photo_1_desktop.jpg"
+  },
+  {
+    "name": "Местная растительность",
+    "author": "Сергей",
+    "likes": "143",
+    "photoMobile": "img/photo_2_mobile.jpg",
+    "photoTablet": "img/photo_2_tablet.jpg",
+    "photoDesktop": "img/photo_2_desktop.jpg"
+  },
+  {
+    "name": "Дорога на север",
+    "author": "Петр",
+    "likes": "96",
+    "photoMobile": "img/photo_3_mobile.jpg",
+    "photoTablet": "img/photo_3_tablet.jpg",
+    "photoDesktop": "img/photo_3_desktop.jpg"
+  },
+  {
+    "name": "Мост дьявола",
+    "author": "Антон",
+    "likes": "254",
+    "photoMobile": "img/photo_4_mobile.jpg",
+    "photoTablet": "img/photo_4_tablet.jpg",
+    "photoDesktop": "img/photo_4_desktop.jpg"
+  },
+  {
+    "name": "Неродные просторы",
+    "author": "Борис",
+    "likes": "1350",
+    "photoMobile": "img/photo_1_mobile.jpg",
+    "photoTablet": "img/photo_1_tablet.jpg",
+    "photoDesktop": "img/photo_1_desktop.jpg"
+  },
+  {
+    "name": "Местная растительность",
+    "author": "Сергей",
+    "likes": "143",
+    "photoMobile": "img/photo_2_mobile.jpg",
+    "photoTablet": "img/photo_2_tablet.jpg",
+    "photoDesktop": "img/photo_2_desktop.jpg"
+  },
+  {
+    "name": "Дорога на север",
+    "author": "Петр",
+    "likes": "96",
+    "photoMobile": "img/photo_3_mobile.jpg",
+    "photoTablet": "img/photo_3_tablet.jpg",
+    "photoDesktop": "img/photo_3_desktop.jpg"
+  },
+  {
+    "name": "Мост дьявола",
+    "author": "Антон",
+    "likes": "254",
+    "photoMobile": "img/photo_4_mobile.jpg",
+    "photoTablet": "img/photo_4_tablet.jpg",
+    "photoDesktop": "img/photo_4_desktop.jpg"
+  },
+  {
+    "name": "Неродные просторы",
+    "author": "Борис",
+    "likes": "1350",
+    "photoMobile": "img/photo_1_mobile.jpg",
+    "photoTablet": "img/photo_1_tablet.jpg",
+    "photoDesktop": "img/photo_1_desktop.jpg"
+  },
+  {
+    "name": "Местная растительность",
+    "author": "Сергей",
+    "likes": "143",
+    "photoMobile": "img/photo_2_mobile.jpg",
+    "photoTablet": "img/photo_2_tablet.jpg",
+    "photoDesktop": "img/photo_2_desktop.jpg"
+  },
+  {
+    "name": "Дорога на север",
+    "author": "Петр",
+    "likes": "96",
+    "photoMobile": "img/photo_3_mobile.jpg",
+    "photoTablet": "img/photo_3_tablet.jpg",
+    "photoDesktop": "img/photo_3_desktop.jpg"
+  },
+  {
+    "name": "Мост дьявола",
+    "author": "Антон",
+    "likes": "254",
+    "photoMobile": "img/photo_4_mobile.jpg",
+    "photoTablet": "img/photo_4_tablet.jpg",
+    "photoDesktop": "img/photo_4_desktop.jpg"
+  },
+  {
+    "name": "Неродные просторы",
+    "author": "Борис",
+    "likes": "1350",
+    "photoMobile": "img/photo_1_mobile.jpg",
+    "photoTablet": "img/photo_1_tablet.jpg",
+    "photoDesktop": "img/photo_1_desktop.jpg"
+  },
+  {
+    "name": "Местная растительность",
+    "author": "Сергей",
+    "likes": "143",
+    "photoMobile": "img/photo_2_mobile.jpg",
+    "photoTablet": "img/photo_2_tablet.jpg",
+    "photoDesktop": "img/photo_2_desktop.jpg"
+  },
+  {
+    "name": "Дорога на север",
+    "author": "Петр",
+    "likes": "96",
+    "photoMobile": "img/photo_3_mobile.jpg",
+    "photoTablet": "img/photo_3_tablet.jpg",
+    "photoDesktop": "img/photo_3_desktop.jpg"
+  },
+  {
+    "name": "Мост дьявола",
+    "author": "Антон",
+    "likes": "254",
+    "photoMobile": "img/photo_4_mobile.jpg",
+    "photoTablet": "img/photo_4_tablet.jpg",
+    "photoDesktop": "img/photo_4_desktop.jpg"
+  }
+]
