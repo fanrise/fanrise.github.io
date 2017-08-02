@@ -5,7 +5,7 @@ $('.feedback__form').submit(function (event) {
   var data = $(this).serialize();
   $.ajax({
     type: 'POST',
-    url: 'http://localhost:3000/js/server.php',
+    url: 'js/server.php',
     data: data,
     success: function (result) {
       $(this).html(result);
